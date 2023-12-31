@@ -6,7 +6,7 @@ pipeline {
         stage('Build Java') {
             steps {
                 script {
-                    sh './mvnw clean install'
+                    sh './mvnw install'
                 }
             }
         }
