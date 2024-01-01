@@ -6,6 +6,9 @@ public class Response {
     @JsonProperty
     private String message;
 
+    public Response() {
+    }
+
     public Response(String message) {
         this.message = message;
     }
