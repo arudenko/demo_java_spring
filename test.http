@@ -1,0 +1,8 @@
+###
+GET http://localhost:8080/sit/service-a/api/hello
+
+###
+GET http://localhost:8080/sit/service-b/api/hello
+
+###
+GET http://localhost/sit/service-b/api/hello
